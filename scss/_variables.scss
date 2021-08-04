@@ -1,0 +1,10 @@
+$titulo-color: white;
+$titulo-fuente: 'Dela Gothic One', cursive;
+
+$texto-color: #039dff;
+$texto-fuente: 'Roboto', cursive;
+
+@mixin flex ($flow) {
+    display: flex;
+    flex-flow: $flow;
+}

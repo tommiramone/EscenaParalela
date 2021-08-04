@@ -1,0 +1,24 @@
+.ultimasNoticias {
+    grid-area: 1 / 1 / 5 / 3;
+}
+
+.ultimaEntrevista {
+    grid-area: 1 / 3 / 5 / 5;
+}
+
+.recomendado {
+    grid-area: 1 / 5 / 5 / 8;
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 0em;
+}
+
+.container {
+    grid-area: 2 / 1 / 6 / 7;
+}
+

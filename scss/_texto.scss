@@ -1,0 +1,51 @@
+@import "variables";
+
+h3 {
+    color: $titulo-color;
+    font-family: $titulo-fuente;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+h2 {
+    @extend h3;
+    font-size: 1.2em;
+}
+
+h5 {
+    color: $texto-color;
+}
+
+h4 {
+    color: $titulo-color;
+    letter-spacing: 2px;
+}
+
+label {
+    font-family: $texto-fuente;
+    color:$texto-color;
+    font-size: 1em;
+}
+
+p {
+    font-family: $texto-fuente;
+    color: $texto-color;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.textoDestacado {
+    font-weight: bold;
+    font-size: .9em;
+    margin-bottom: .1em;
+    margin-left: 1.1em;
+}
+
+
+
+
+
+
+
+
+
