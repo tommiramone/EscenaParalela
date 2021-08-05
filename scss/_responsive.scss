@@ -8,9 +8,12 @@
     body {
         header {
             .navegador {
-                .navegador__item--md {
-                    font-size: .9em;
-                }
+    
+                   
+                    .navegador__item--md {
+                        font-size: .9em;
+                    }
+                
             }
         }
 
@@ -238,26 +241,26 @@
                 .eventos--xl {
                     margin-left: 5em;
                 }
-    
+
             }
-    
+
             .entrevista {
                 .container--xl {
                     width: 40%;
                     margin-bottom: .5em;
                     margin: 0 auto;
-    
+
                 }
             }
-    
+
             .error--xl {
                 border: solid 1px red;
                 height: 20em;
-    
+
             }
         }
 
-        
+
 
     }
 
