@@ -1,8 +1,8 @@
 $titulo-color: white;
-$titulo-fuente: 'Dela Gothic One', cursive;
+$titulo-fuente: 'Dela Gothic One', Impact ,cursive; 
 
 $texto-color: #039dff;
-$texto-fuente: 'Roboto', cursive;
+$texto-fuente: 'Roboto', Arial, cursive; 
 
 @mixin flex ($flow) {
     display: flex;
