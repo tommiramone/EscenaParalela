@@ -17,38 +17,39 @@ body {
             list-style-type: none;
         }
     }
- 
-     header {
 
-        
-         .navegador {
-             padding: .3em;
-             background: linear-gradient(to bottom, rgba(97, 97, 97, 0), #121212), url(../imagenes/fondo.png);
-             background-repeat: no-repeat;
-             background-size: cover;
+    header {
 
-             .container-fluid {
-                 display: flex;
-                 justify-content: space-between;
-           }
 
-            &__lista {
-                 margin-bottom: 10em;
-             }
+        .navegador {
+            padding: .3em;
+            background: linear-gradient(to bottom, rgba(97, 97, 97, 0), #121212), url(../imagenes/fondo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
 
-             &__item {
-                padding: 1em;
-                color: white;
-                 font-size: .5em;
-               font-family: 'Dela Gothic One', cursive;
+            .container-fluid {
+                .navbar-toggler{
+                    margin-left: 5em;
+                }
             }
 
-           &__link--activo {
-                font-weight: bold;
-             }
-         }
+            &__lista {
+                margin-bottom: 10em;
+            }
 
-     }
+            &__item {
+                padding: 1em;
+                color: white;
+                font-size: .5em;
+                font-family: $titulo-fuente;
+            }
+
+            &__link--activo {
+                font-weight: bold;
+            }
+        }
+
+    }
 
     main {
         .content {
