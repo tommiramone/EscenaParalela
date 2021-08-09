@@ -26,25 +26,15 @@ body {
             background-repeat: no-repeat;
             background-size: cover;
 
-            .container-fluid {
-                .navbar-toggler {
-                    margin-left: 5em;
-                }
-            }
-
-            &__lista {
-                margin-bottom: 10em;
-            }
-
             &__item {
                 padding: 1em;
                 color: white;
-                font-size: .5em;
+                font-size: .7em;
                 font-family: $titulo-fuente;
             }
 
-            &__link--activo {
-                font-weight: bold;
+            .navegador__lista{
+                margin-left: auto;
             }
         }
 

@@ -87,7 +87,7 @@ p {
 
 @media only screen and (min-width: 992px) {
   body header .navegador .navegador__item--l {
-    font-size: 1.2em; }
+    font-size: .9em; }
   body header .navegador li :hover {
     text-shadow: 4px 3px 0 #039dff; }
   body main .index {
@@ -105,9 +105,11 @@ p {
 
 @media only screen and (min-width: 1200px) {
   body header .navegador .navegador__item--xl {
-    font-size: 1.5em; }
+    font-size: 1.2em; }
   body header .navegador li :hover {
     text-shadow: 4px 3px 0 #039dff; }
+  body header .navegador .navegador__lista {
+    margin-left: auto; }
   body header .navegador .container-fluid .logo__item {
     height: 5.5em; }
   body main .noticia {
@@ -172,17 +174,13 @@ body {
     background: linear-gradient(to bottom, rgba(97, 97, 97, 0), #121212), url(../imagenes/fondo.png);
     background-repeat: no-repeat;
     background-size: cover; }
-    body header .navegador .container-fluid .navbar-toggler {
-      margin-left: 5em; }
-    body header .navegador__lista {
-      margin-bottom: 10em; }
     body header .navegador__item {
       padding: 1em;
       color: white;
-      font-size: .5em;
+      font-size: .7em;
       font-family: "Dela Gothic One", Impact, cursive; }
-    body header .navegador__link--activo {
-      font-weight: bold; }
+    body header .navegador .navegador__lista {
+      margin-left: auto; }
   body main .content {
     flex: 1; }
   body main .ultimaNoticia {
