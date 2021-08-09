@@ -179,8 +179,10 @@ body {
       color: white;
       font-size: .7em;
       font-family: "Dela Gothic One", Impact, cursive; }
-    body header .navegador .navegador__lista {
+    body header .navegador__lista {
       margin-left: auto; }
+    body header .navegador__link--activo {
+      font-weight: bold; }
   body main .content {
     flex: 1; }
   body main .ultimaNoticia {

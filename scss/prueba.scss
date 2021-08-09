@@ -33,8 +33,12 @@ body {
                 font-family: $titulo-fuente;
             }
 
-            .navegador__lista{
+            &__lista{
                 margin-left: auto;
+            }
+
+            &__link--activo {
+                font-weight: bold;
             }
         }
 
