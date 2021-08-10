@@ -33,12 +33,19 @@ body {
                 font-family: $titulo-fuente;
             }
 
-            &__lista{
+            &__lista {
                 margin-left: auto;
             }
 
             &__link--activo {
                 font-weight: bold;
+            }
+
+            &__boton:focus,
+            &__boton:active,
+            &__boton:focus {
+                outline: none;
+                box-shadow: none;
             }
         }
 

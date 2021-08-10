@@ -181,6 +181,9 @@ body {
       margin-left: auto; }
     body header .navegador__link--activo {
       font-weight: bold; }
+    body header .navegador__boton:focus, body header .navegador__boton:active, body header .navegador__boton:focus {
+      outline: none;
+      box-shadow: none; }
   body main .content {
     flex: 1; }
   body main .ultimaNoticia {
