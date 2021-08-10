@@ -33,20 +33,20 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navegador__lista ">
-                        <li class="nav-item navegador__item navegador__item--md navegador__item--l navegador__item--xl">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navegador__lista navegador__lista--md navegador__lista--l navegador__lista--xl ">
+                        <li class="nav-item navegador__item">
                             <a class="navegador__link" aria-current="page" href="../index.html">Inicio</a>
                         </li>
-                        <li class="nav-item navegador__item navegador__item--md navegador__item--l navegador__item--xl">
+                        <li class="nav-item navegador__item">
                             <a class="navegador__link" aria-current="page" href="Noticias.html">Noticias</a>
                         </li>
-                        <li class="nav-item navegador__item navegador__item--md navegador__item--l navegador__item--xl">
+                        <li class="nav-item navegador__item">
                             <a class="navegador__link" href="eventos.html">Eventos</a>
                         </li>
-                        <li class="nav-item navegador__item navegador__item--md navegador__item--l navegador__item--xl">
+                        <li class="nav-item navegador__item">
                             <a class="navegador__link" href="Entrevistas.html">Entrevistas</a>
-                        <li class="nav-item navegador__item navegador__item--md navegador__item--l navegador__item--xl">
-                            <a class="navegador__link--activo navegador__link" href="Contacto.html">Contacto</a>
+                        <li class="nav-item navegador__item navegador__item--xl">
+                            <a class="navegador__link--activo  navegador__link" href="Contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -60,24 +60,26 @@
         <!-----------------------------------------INFO PERSONAL---------------------------------------------->
         <h2 id="contacto__texto">Si tenes un proyecto músical y querés difundirlo, contactate con nosotros</h2>
 
-        <div class="contacto contacto--md container container--md ">
+        <div class="container contacto">
             <div class="row">
                 <div class="col 6">
-                    <p class=" contacto__textoDestacado contacto__textoDestacado--md">
+                    <p class="contacto__texto">
                         INFORMACIÓN PERSONAL
                     </p>
-                    <fieldset class="contacto__formulario contacto__formulario--md contacto__formulario1--xl ">
+                    <fieldset class="contacto__formulario contacto__formulario__uno--xl ">
                         <form action="" method="">
-                            <label for="nombreUno" class="contacto__nombre">Nombre
-                                <input type="text" placeholder="Nombre" class="contacto__cuadro">
+                            <label for="nombreUno" class="contacto__formulario__nombre">Nombre
+                                <input type="text" placeholder="Nombre" class="contacto__formulario__cuadro">
                             </label>
 
-                            <label for="nombreDos" class="contacto__nombre">Nombre del proyecto
-                                <input type="text" placeholder="Nombre del proyecto" class="contacto__cuadro">
+                            <label for="nombreDos" class="contacto__formulario__nombre">Nombre del proyecto
+                                <input type="text" placeholder="Nombre del proyecto"
+                                    class="contacto__formulario__cuadro">
                             </label>
 
-                            <label for="material" class="contacto__nombre">Cargue su material aqui
-                                <input type="file" placeholder="Cargue su material aquí" class="contacto__cuadro">
+                            <label for="material" class="contacto__formulario__nombre">Cargue su material aqui
+                                <input type="file" placeholder="Cargue su material aquí"
+                                    class="contacto__formulario__cuadro">
                             </label>
                     </fieldset>
                 </div>
@@ -85,61 +87,62 @@
                 <!----------------------------------------------------------------------------------------------------->
 
                 <!-----------------------------------------INFO PROYECTO----------------------------------------------->
-               <div class="col 6 ">
-                <p>INFORMACIÓN DEL PROYECTO</p>
+                <div class="col 6 ">
+                    <p>INFORMACIÓN DEL PROYECTO</p>
 
-                <fieldset class="contacto__formulario contacto__formulario2--xl">
-                    <p class="contacto__nombre">
-                        ¿A qué parte de la cultura pertenece el material?
-                    </p>
+                    <fieldset class="contacto__formulario contacto__formulario__dos--xl">
+                        <p class="contacto__nombre">
+                            ¿A qué parte de la cultura pertenece el material?
+                        </p>
 
-                    <div class="contacto__select contacto__select--md">
-                        <select>
-                            <option value="1">Música</option>
-                            <option value="2">Teatro</option>
-                            <option value="3">Audiovisual</option>
-                        </select>
-                    </div>
-
-                    <p class="contacto__nombre">
-                        ¿En caso de ser música a que genero pertenece? Se puede marcar más de uno
-                    </p>
-
-                    <div class="contacto__check">
-                        <label>Rock
-                            <input type="checkbox">
-                        </label>
-                        <label> Pop
-                            <input type="checkbox">
-                        </label>
-                        <label>Jazz
-                            <input type="checkbox">
-                        </label>
-                        <label>Cumbia
-                            <input type="checkbox">
-                        </label>
-                        <label>Trap
-                            <input type="checkbox">
-                        </label>
-                        <label>Otro
-                            <input type="checkbox">
-                        </label>
-                    </div>
-
-                    <textarea name="" id="" cols="30" rows="5"
-                        placeholder="Deje más información que usted crea conveniente" class="cuadro"></textarea>
-
-                    <div class="contacto__boton">
-                        <div>
-                            <button type="reset" class="contacto__boton__uno">Limpiar campos</buttom>
+                        <div class="contacto__formulario__select contacto__formulario __select--md">
+                            <select>
+                                <option value="1">Música</option>
+                                <option value="2">Teatro</option>
+                                <option value="3">Audiovisual</option>
+                            </select>
                         </div>
 
-                        <div>
-                            <button type="submit" value="Enviar" class="contacto__boton__uno">Enviar</buttom>
+                        <p class="contacto__formulario__nombre">
+                            ¿En caso de ser música a que genero pertenece? Se puede marcar más de uno
+                        </p>
+
+                        <div class="contacto__formulario__check">
+                            <label>Rock
+                                <input type="checkbox">
+                            </label>
+                            <label> Pop
+                                <input type="checkbox">
+                            </label>
+                            <label>Jazz
+                                <input type="checkbox">
+                            </label>
+                            <label>Cumbia
+                                <input type="checkbox">
+                            </label>
+                            <label>Trap
+                                <input type="checkbox">
+                            </label>
+                            <label>Otro
+                                <input type="checkbox">
+                            </label>
                         </div>
-                    </div>
-                </fieldset>
-               </div>
+
+                        <textarea name="" id="" cols="30" rows="5"
+                            placeholder="Deje más información que usted crea conveniente" class="cuadro"></textarea>
+
+                        <div class="contacto__formulario__boton">
+                            <div>
+                                <button type="reset" class="contacto__formulario__boton__uno">Limpiar campos</buttom>
+                            </div>
+
+                            <div>
+                                <button type="submit" value="Enviar" class="contacto__formulario __boton__uno">Enviar
+                                    </buttom>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
             </div>
             <!----------------------------------------------------------------------------------------------------->
         </div>
@@ -150,7 +153,7 @@
     <footer>
         <div class="pie">
             <div class="pie__item">
-                <div class="pie__texto">
+                <div class="pie__item__texto">
                     <p id="txtFooter">© Escena Paralela</p>
                 </div>
 
@@ -159,8 +162,9 @@
                         <img src="../imagenes/youtube.png" alt="YoutubeLogo">
                     </a>
 
-                    <a href="https://www.instagram.com/escenaparalela/?hl=es-la"><img src="../imagenes/instagram.png"
-                            alt="InstagramLogo"></a>
+                    <a href="https://www.instagram.com/escenaparalela/?hl=es-la">
+                        <img src="../imagenes/instagram.png" alt="InstagramLogo">
+                    </a>
                 </div>
 
             </div>
@@ -168,19 +172,19 @@
             <div class="pie__lista">
                 <ul class="pie__menu">
                     <li>
-                        <a href="../index.html" class="pie__link">Home</a>
+                        <a href="index.html" class="pie__link">Home</a>
                     </li>
                     <li>
-                        <a href="Noticias.html" class="pie__link">Noticias</a>
+                        <a href="/paginas/Noticias.html" class="pie__link">Noticias</a>
                     </li>
                     <li>
-                        <a href="eventos.html" class="pie__link">Eventos</a>
+                        <a href="/paginas/eventos.html" class="pie__link">Eventos</a>
                     </li>
                     <li>
-                        <a href="Entrevistas.html" class="pie__link">Entrevistas</a>
+                        <a href="/paginas/Entrevistas.html" class="pie__link">Entrevistas</a>
                     </li>
                     <li>
-                        <a href="Contacto.html" class="pie__link">Contacto</a>
+                        <a href="/paginas/Contacto.html" class="pie__link">Contacto</a>
                     </li>
                 </ul>
             </div>

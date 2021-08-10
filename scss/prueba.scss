@@ -59,7 +59,7 @@ body {
         .ultimaNoticia {
             text-align: center;
 
-            .ultimaNoticia__imagen {
+            &__imagen {
                 text-align: center;
                 justify-content: center;
 
@@ -68,7 +68,7 @@ body {
                 }
             }
 
-            .ultimaNoticia__texto {
+            &__texto {
                 padding: .5em;
                 font-size: .9em;
                 text-align: center;
@@ -80,12 +80,12 @@ body {
             text-align: center;
             justify-content: center;
 
-            .ultimaEntrevista__video {
+            &__video {
                 max-height: 15em;
                 max-width: 20em;
             }
 
-            .ultimaEntrevista__texto {
+            &__texto {
                 margin-bottom: .2em;
                 font-size: .9em;
                 margin-top: .2em;
@@ -97,11 +97,11 @@ body {
             justify-content: center;
             text-align: center;
 
-            .recomendado__imagen {
+            &__imagen {
                 max-height: 11em;
             }
 
-            .recomendado__texto {
+            &__texto {
                 @extend.ultimaNoticia__texto;
 
                 .click {
@@ -162,11 +162,11 @@ body {
             color: white;
             border: solid 5px blueviolet;
             border-radius: .5em;
-            margin: 1em 0 0 0;
+            margin: auto;
 
             .link:hover {
                 font-weight: bold;
-                color: #039dff;
+                color: $texto-color;
             }
 
             th {
@@ -203,21 +203,21 @@ body {
             @include flex (column nowrap);
 
             padding: .3em;
-            margin: 0 .8em 1em 0;
+            margin: auto;
 
-            .contacto__formulario {
+            &__formulario {
                 text-align: center;
                 border: solid blueviolet;
                 border-radius: .5em;
 
-                .contacto__nombre {
+                &__nombre {
                     @include flex (column nowrap);
                     align-items: center;
                     text-align: center;
                     margin: 1em 0 1em 0;
                 }
 
-                .contacto__cuadro {
+                &__cuadro {
                     text-align: center;
                     justify-content: center;
                     resize: none;
@@ -225,22 +225,23 @@ body {
                     margin: .1em;
                 }
 
-                .contacto__check {
+                &__check {
                     font-size: .9em;
                     @include flex (row wrap);
                     justify-content: space-around;
                     margin: .3em;
                 }
 
-                .contacto__select {
+                &__select {
                     @include flex (column nowrap);
                     text-align: center;
                     justify-content: center;
                     align-items: center;
                     margin: .3em 0 .3em 0;
+                    border: none;
                 }
 
-                .contacto__boton {
+                &__boton {
                     @include flex (row nowrap);
                     justify-content: space-around;
                     text-align: center;
@@ -249,7 +250,7 @@ body {
                     border: none;
                     outline: none;
 
-                    .contacto__boton__uno {
+                    &__uno {
                         padding: .5em;
                     }
                 }
@@ -273,18 +274,18 @@ body {
             background: linear-gradient(to bottom, #121212, rgba(170, 170, 170, 0.2));
             padding: .7em;
 
-            .pie__item {
+            &__item {
                 @include flex (column nowrap);
                 align-items: center;
                 justify-items: flex-start;
 
-                .pie__texto {
+                &__texto {
                     @include flex (row nowrap);
                     font-size: 1em;
                 }
             }
 
-            .pie__item__dos {
+            &__item__dos {
                 @include flex (row nowrap);
                 column-gap: 1em;
 
@@ -294,13 +295,13 @@ body {
 
             }
 
-            .pie__lista {
+            &__lista {
                 display: flex;
                 justify-items: flex-end;
                 gap: 1em;
                 color: white;
                 font-size: 0.8em;
-                font-family: 'Dela Gothic One', cursive;
+                font-family: $titulo-fuente;
                 padding: 2em;
             }
 

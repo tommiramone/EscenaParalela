@@ -51,8 +51,8 @@ p {
   grid-area: 2 / 1 / 6 / 7; }
 
 @media only screen and (min-width: 768px) {
-  body header .navegador .navegador__item--md {
-    font-size: .9em; }
+  body header .navegador__lista--md {
+    font-size: 1.2em; }
   body main .index__titulo--md {
     font-size: 1.2em;
     text-align: center;
@@ -72,22 +72,17 @@ p {
     margin: 0 auto; }
     body main .entrevista .container--md .d-block {
       height: 20em; }
-  body main .evento .eventos--md {
-    margin-left: 1.5em; }
   body main .noticia__uno--md {
     direction: rtl; }
   body main .noticia__tres--md {
     direction: rtl; }
-  body main .contacto--md .row .contacto__formulario--md,
-  body main .contacto--md .row .contacto__textoDestacado {
-    margin-left: 1em; }
   body main .error--md {
     border: solid 1px red;
     height: 13em; } }
 
 @media only screen and (min-width: 992px) {
-  body header .navegador .navegador__item--l {
-    font-size: .9em; }
+  body header .navegador__lista--l {
+    font-size: 1.5em; }
   body header .navegador li :hover {
     text-shadow: 4px 3px 0 #039dff; }
   body main .index {
@@ -104,31 +99,30 @@ p {
       height: 20em; } }
 
 @media only screen and (min-width: 1200px) {
-  body header .navegador .navegador__item--xl {
-    font-size: 1.2em; }
+  body header .navegador__lista--xl {
+    font-size: 2em; }
   body header .navegador li :hover {
     text-shadow: 4px 3px 0 #039dff; }
-  body header .navegador .container-fluid .logo__item {
+  body header .navegador .logo__item {
     height: 5.5em; }
   body main .noticia {
-    text-align: center;
-    margin-bottom: 1em; }
+    text-align: center; }
     body main .noticia__uno--xl {
       direction: rtl; }
       body main .noticia__uno--xl .noticia__uno__item__texto--xl {
-        font-size: 1.5em; }
+        font-size: 1.2em; }
     body main .noticia__dos--xl {
       direction: ltr; }
       body main .noticia__dos--xl .noticia__dos__item__texto--xl {
-        font-size: 1.5em; }
+        font-size: 1.2em; }
     body main .noticia__tres--xl {
       direction: rtl; }
       body main .noticia__tres--xl .noticia__tres__item__texto--xl {
-        font-size: 1.5em; }
+        font-size: 1.2em; }
     body main .noticia__cuatro--xl {
       direction: ltr; }
       body main .noticia__cuatro--xl .noticia__cuatro__item__texto--xl {
-        font-size: 1.5em; }
+        font-size: 1.2em; }
   body main .ultimaNoticia__imagen--xl {
     height: 90%;
     width: 90%; }
@@ -144,14 +138,12 @@ p {
     width: 60%; }
   body main .container .row {
     margin-left: 5em; }
-    body main .container .row .contacto__formulario1--xl {
+    body main .container .row .contacto__formulario__uno--xl {
       margin-left: auto;
       width: 100%; }
-    body main .container .row .contacto__formulario2--xl {
+    body main .container .row .contacto__formulario__dos--xl {
       margin-right: auto;
       width: 100%; }
-  body main .evento .eventos--xl {
-    margin-left: 5em; }
   body main .entrevista .container--xl {
     width: 40%;
     margin-bottom: .5em;
@@ -188,22 +180,22 @@ body {
     flex: 1; }
   body main .ultimaNoticia {
     text-align: center; }
-    body main .ultimaNoticia .ultimaNoticia__imagen {
+    body main .ultimaNoticia__imagen {
       text-align: center;
       justify-content: center; }
-      body main .ultimaNoticia .ultimaNoticia__imagen img {
+      body main .ultimaNoticia__imagen img {
         max-height: 11em; }
-    body main .ultimaNoticia .ultimaNoticia__texto, body main .ultimaNoticia .recomendado .recomendado__texto, body main .recomendado .ultimaNoticia .recomendado__texto {
+    body main .ultimaNoticia__texto, body main .recomendado__texto {
       padding: .5em;
       font-size: .9em;
       text-align: center; }
   body main .ultimaEntrevista {
     text-align: center;
     justify-content: center; }
-    body main .ultimaEntrevista .ultimaEntrevista__video {
+    body main .ultimaEntrevista__video {
       max-height: 15em;
       max-width: 20em; }
-    body main .ultimaEntrevista .ultimaEntrevista__texto {
+    body main .ultimaEntrevista__texto {
       margin-bottom: .2em;
       font-size: .9em;
       margin-top: .2em;
@@ -211,9 +203,9 @@ body {
   body main .recomendado {
     justify-content: center;
     text-align: center; }
-    body main .recomendado .recomendado__imagen {
+    body main .recomendado__imagen {
       max-height: 11em; }
-    body main .recomendado .recomendado__texto .click {
+    body main .recomendado__texto .click {
       font-weight: bold; }
   body main .noticia {
     text-align: center; }
@@ -232,7 +224,7 @@ body {
     color: white;
     border: solid 5px blueviolet;
     border-radius: .5em;
-    margin: 1em 0 0 0; }
+    margin: auto; }
     body main .eventos .link:hover {
       font-weight: bold;
       color: #039dff; }
@@ -256,37 +248,38 @@ body {
     display: flex;
     flex-flow: column nowrap;
     padding: .3em;
-    margin: 0 .8em 1em 0; }
-    body main .contacto .contacto__formulario {
+    margin: auto; }
+    body main .contacto__formulario {
       text-align: center;
       border: solid blueviolet;
       border-radius: .5em; }
-      body main .contacto .contacto__formulario .contacto__nombre {
+      body main .contacto__formulario__nombre {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
         text-align: center;
         margin: 1em 0 1em 0; }
-      body main .contacto .contacto__formulario .contacto__cuadro {
+      body main .contacto__formulario__cuadro {
         text-align: center;
         justify-content: center;
         resize: none;
         border: none;
         margin: .1em; }
-      body main .contacto .contacto__formulario .contacto__check {
+      body main .contacto__formulario__check {
         font-size: .9em;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
         margin: .3em; }
-      body main .contacto .contacto__formulario .contacto__select {
+      body main .contacto__formulario__select {
         display: flex;
         flex-flow: column nowrap;
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin: .3em 0 .3em 0; }
-      body main .contacto .contacto__formulario .contacto__boton {
+        margin: .3em 0 .3em 0;
+        border: none; }
+      body main .contacto__formulario__boton {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-around;
@@ -295,7 +288,7 @@ body {
         border-radius: .1em;
         border: none;
         outline: none; }
-        body main .contacto .contacto__formulario .contacto__boton .contacto__boton__uno {
+        body main .contacto__formulario__boton__uno {
           padding: .5em; }
   body main #contacto__texto {
     text-align: center; }
@@ -308,26 +301,26 @@ body {
     align-items: center;
     background: linear-gradient(to bottom, #121212, rgba(170, 170, 170, 0.2));
     padding: .7em; }
-    body footer .pie .pie__item {
+    body footer .pie__item {
       display: flex;
       flex-flow: column nowrap;
       align-items: center;
       justify-items: flex-start; }
-      body footer .pie .pie__item .pie__texto {
+      body footer .pie__item__texto {
         display: flex;
         flex-flow: row nowrap;
         font-size: 1em; }
-    body footer .pie .pie__item__dos {
+    body footer .pie__item__dos {
       display: flex;
       flex-flow: row nowrap;
       column-gap: 1em; }
-      body footer .pie .pie__item__dos img {
+      body footer .pie__item__dos img {
         height: 2em; }
-    body footer .pie .pie__lista {
+    body footer .pie__lista {
       display: flex;
       justify-items: flex-end;
       gap: 1em;
       color: white;
       font-size: 0.8em;
-      font-family: 'Dela Gothic One', cursive;
+      font-family: "Dela Gothic One", Impact, cursive;
       padding: 2em; }

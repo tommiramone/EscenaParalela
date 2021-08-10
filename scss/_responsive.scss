@@ -1,264 +1,225 @@
- @media only screen and (min-width: 375px) {
+ @media only screen and (min-width: 768px) {
+     body {
+         header {
+             .navegador {
+                 &__lista--md {
+                     font-size: 1.2em;
+                 }
+             }
+         }
 
+         main {
+             .index__titulo--md {
+                 font-size: 1.2em;
+                 text-align: center;
+                 margin: 0.3em 0 0.6em 0;
+             }
+
+             .ultimaNoticia {
+                 &__texto--md {
+                     margin: 0.3em 0 0.6em 0;
+                     font-size: 1.2em;
+                 }
+             }
+
+             .ultimaEntrevista {
+                 &__video--md {
+                     height: 25em;
+                     width: 35em;
+                 }
+             }
+
+             .recomendado {
+                 &__texto--md {
+                     margin: 0.3em 0 0.6em 0;
+                     font-size: .9em;
+                 }
+             }
+
+             .entrevista {
+                 .container--md {
+                     width: 70%;
+                     margin-bottom: .5em;
+                     margin: 0 auto;
+
+                     .d-block {
+                         height: 20em;
+                     }
+                 }
+             }
+
+             .noticia {
+                 &__uno--md {
+                     direction: rtl;
+                 }
+
+                 &__tres--md {
+                     direction: rtl;
+                 }
+
+             }
+
+             .error--md {
+                 border: solid 1px red;
+                 height: 13em;
+             }
+         }
+     }
  }
 
-@media only screen and (min-width: 768px) {
-    body {
-        header {
-            .navegador {
-                    .navegador__item--md {
-                        font-size: .9em;
-                    }
-                
-            }
-        }
+ @media only screen and (min-width: 992px) {
+     body {
+         header {
+             .navegador {
+                 &__lista--l {
+                     font-size: 1.5em;
+                 }
 
-        main {
-            .index__titulo--md {
-                font-size: 1.2em;
-                text-align: center;
-                margin: 0.3em 0 0.6em 0;
-            }
+                 li {
+                     :hover {
+                         text-shadow: 4px 3px 0 $texto-color;
+                     }
+                 }
+             }
+         }
 
-            .ultimaNoticia {
-                &__texto--md {
-                    margin: 0.3em 0 0.6em 0;
-                    font-size: 1.2em;
-                }
-            }
+         main {
+             .index {
+                 display: flex;
+                 flex-flow: row;
+             }
 
-            .ultimaEntrevista {
-                &__video--md {
-                    height: 25em;
-                    width: 35em;
-                }
-            }
+             .error--l {
+                 border: solid 1px red;
+                 height: 15em;
+             }
 
-            .recomendado {
-                &__texto--md {
-                    margin: 0.3em 0 0.6em 0;
-                    font-size: .9em;
-                }
-            }
+             .entrevista {
+                 .container--l {
+                     width: 60%;
+                     margin-bottom: .5em;
+                     margin: 0 auto;
 
-            .entrevista {
-                .container--md {
-                    width: 70%;
-                    margin-bottom: .5em;
-                    margin: 0 auto;
+                     .d-block {
+                         height: 20em;
+                     }
+                 }
+             }
+         }
+     }
+ }
 
-                    .d-block {
-                        height: 20em;
-                    }
-                }
-            }
+ @media only screen and (min-width: 1200px) {
 
-            .evento {
-                .eventos--md {
-                    margin-left: 1.5em;
-                }
+     body {
+         header {
+             .navegador {
+                 &__lista--xl {
+                     font-size: 2em;
+                 }
 
-            }
+                 li {
+                     :hover {
+                         text-shadow: 4px 3px 0 #039dff;
+                     }
+                 }
 
-            .noticia {
-                &__uno--md {
-                    direction: rtl;
-                }
+                 .logo {
+                     &__item {
+                         height: 5.5em;
+                     }
+                 }
+             }
+         }
 
-                &__tres--md {
-                    direction: rtl;
-                }
+         main {
+             .noticia {
+                 text-align: center;
 
-            }
+                 &__uno--xl {
+                     direction: rtl;
 
-            .contacto--md {
-                .row {
+                     .noticia__uno__item__texto--xl {
+                         font-size: 1.2em;
+                     }
+                 }
 
-                    .contacto__formulario--md,
-                    .contacto__textoDestacado {
-                        margin-left: 1em;
-                    }
-                }
-            }
+                 &__dos--xl {
+                     direction: ltr;
 
-            .error--md {
-                border: solid 1px red;
-                height: 13em;
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    body {
-        header {
-            .navegador {
-                .navegador__item--l {
-                    font-size: .9em;
-                }
-
-                li {
-                    :hover {
-                        text-shadow: 4px 3px 0 #039dff;
-                    }
-                }
-            }
-        }
-
-        main {
-            .index {
-                display: flex;
-                flex-flow: row;
-            }
-
-            .error--l {
-                border: solid 1px red;
-                height: 15em;
-            }
-
-            .entrevista {
-                .container--l {
-                    width: 60%;
-                    margin-bottom: .5em;
-                    margin: 0 auto;
-
-                    .d-block {
-                        height: 20em;
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-
-    body {
-        header {
-            .navegador {
-                .navegador__item--xl {
-                    font-size: 1.2em;
-                }
-
-                li {
-                    :hover {
-                        text-shadow: 4px 3px 0 #039dff;
-                    }
-                }
-
-                .container-fluid {
-
-                    .logo {
-                        &__item {
-                            height: 5.5em;
-                        }
-                    }
-                }
-            }
-        }
-
-        main {
-            .noticia {
-                text-align: center;
-                margin-bottom: 1em;
-
-                &__uno--xl {
-                    direction: rtl;
-
-                    .noticia__uno__item__texto--xl {
-                        font-size: 1.5em;
-                    }
-                }
-
-                &__dos--xl {
-                    direction: ltr;
-
-                    .noticia__dos__item__texto--xl {
-                        font-size: 1.5em;
-                    }
-                }
+                     .noticia__dos__item__texto--xl {
+                         font-size: 1.2em;
+                     }
+                 }
 
 
-                &__tres--xl {
-                    direction: rtl;
+                 &__tres--xl {
+                     direction: rtl;
 
-                    .noticia__tres__item__texto--xl {
-                        font-size: 1.5em;
-                    }
-                }
+                     .noticia__tres__item__texto--xl {
+                         font-size: 1.2em;
+                     }
+                 }
 
-                &__cuatro--xl {
-                    direction: ltr;
+                 &__cuatro--xl {
+                     direction: ltr;
 
-                    .noticia__cuatro__item__texto--xl {
-                        font-size: 1.5em;
-                    }
-                }
+                     .noticia__cuatro__item__texto--xl {
+                         font-size: 1.2em;
+                     }
+                 }
 
-            }
+             }
 
-            .ultimaNoticia__imagen--xl {
-                height: 90%;
-                width: 90%;
-            }
+             .ultimaNoticia__imagen--xl {
+                 height: 90%;
+                 width: 90%;
+             }
 
-            .recomendado__texto--xl {
-                font-size: 1em;
-            }
+             .recomendado__texto--xl {
+                 font-size: 1em;
+             }
 
-            .ultimaNoticia--xl,
-            .recomendado--xl,
-            .ultimaEntrevista--xl {
-                height: 33%;
-                width: 33%;
-            }
+             .ultimaNoticia--xl,
+             .recomendado--xl,
+             .ultimaEntrevista--xl {
+                 height: 33%;
+                 width: 33%;
+             }
 
-            .recomendado__imagen--xl {
-                height: 60%;
-                width: 60%;
-            }
+             .recomendado__imagen--xl {
+                 height: 60%;
+                 width: 60%;
+             }
 
-            .container {
-                .row {
-                    margin-left: 5em;
+             .container {
+                 .row {
+                     margin-left: 5em;
 
-                    .contacto__formulario1--xl {
-                        margin-left: auto;
-                        width: 100%;
-                    }
+                     .contacto__formulario__uno--xl {
+                         margin-left: auto;
+                         width: 100%;
+                     }
 
-                    .contacto__formulario2--xl {
-                        margin-right: auto;
-                        width: 100%;
-                    }
-                }
-            }
+                     .contacto__formulario__dos--xl {
+                         margin-right: auto;
+                         width: 100%;
+                     }
+                 }
+             }
 
-            .evento {
-                .eventos--xl {
-                    margin-left: 5em;
-                }
+             .entrevista {
+                 .container--xl {
+                     width: 40%;
+                     margin-bottom: .5em;
+                     margin: 0 auto;
+                 }
+             }
 
-            }
-
-            .entrevista {
-                .container--xl {
-                    width: 40%;
-                    margin-bottom: .5em;
-                    margin: 0 auto;
-
-                }
-            }
-
-            .error--xl {
-                border: solid 1px red;
-                height: 20em;
-
-            }
-        }
-
-
-
-    }
-
-}
+             .error--xl {
+                 border: solid 1px red;
+                 height: 20em;
+             }
+         }
+     }
+ }
