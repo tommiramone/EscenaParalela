@@ -29,7 +29,7 @@ body {
             &__item {
                 padding: 1em;
                 color: white;
-                font-size: .7em;
+                font-size: .8em;
                 font-family: $titulo-fuente;
             }
 
@@ -56,56 +56,58 @@ body {
             flex: 1;
         }
 
-        .ultimaNoticia {
-            text-align: center;
-
-            &__imagen {
+        .index {
+            .ultimaNoticia {
                 text-align: center;
-                justify-content: center;
 
-                img {
-                    max-height: 11em;
+                &__imagen {
+                    text-align: center;
+                    justify-content: center;
+
+                    img {
+                        max-height: 11em;
+                    }
+                }
+
+                &__texto {
+                    padding: .5em;
+                    font-size: .9em;
+                    text-align: center;
+
                 }
             }
 
-            &__texto {
-                padding: .5em;
-                font-size: .9em;
+            .ultimaEntrevista {
+                text-align: center;
+                justify-content: center;
+
+                &__video {
+                    max-height: 15em;
+                    max-width: 20em;
+                }
+
+                &__texto {
+                    margin-bottom: .2em;
+                    font-size: .9em;
+                    margin-top: .2em;
+                    text-align: center;
+                }
+            }
+
+            .recomendado {
+                justify-content: center;
                 text-align: center;
 
-            }
-        }
+                &__imagen {
+                    max-height: 11em;
+                }
 
-        .ultimaEntrevista {
-            text-align: center;
-            justify-content: center;
+                &__texto {
+                    @extend.ultimaNoticia__texto;
 
-            &__video {
-                max-height: 15em;
-                max-width: 20em;
-            }
-
-            &__texto {
-                margin-bottom: .2em;
-                font-size: .9em;
-                margin-top: .2em;
-                text-align: center;
-            }
-        }
-
-        .recomendado {
-            justify-content: center;
-            text-align: center;
-
-            &__imagen {
-                max-height: 11em;
-            }
-
-            &__texto {
-                @extend.ultimaNoticia__texto;
-
-                .click {
-                    font-weight: bold;
+                    .click {
+                        font-weight: bold;
+                    }
                 }
             }
         }

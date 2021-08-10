@@ -167,7 +167,7 @@ body {
     body header .navegador__item {
       padding: 1em;
       color: white;
-      font-size: .7em;
+      font-size: .8em;
       font-family: "Dela Gothic One", Impact, cursive; }
     body header .navegador__lista {
       margin-left: auto; }
@@ -178,34 +178,34 @@ body {
       box-shadow: none; }
   body main .content {
     flex: 1; }
-  body main .ultimaNoticia {
+  body main .index .ultimaNoticia {
     text-align: center; }
-    body main .ultimaNoticia__imagen {
+    body main .index .ultimaNoticia__imagen {
       text-align: center;
       justify-content: center; }
-      body main .ultimaNoticia__imagen img {
+      body main .index .ultimaNoticia__imagen img {
         max-height: 11em; }
-    body main .ultimaNoticia__texto, body main .recomendado__texto {
+    body main .index .ultimaNoticia__texto, body main .index .recomendado__texto {
       padding: .5em;
       font-size: .9em;
       text-align: center; }
-  body main .ultimaEntrevista {
+  body main .index .ultimaEntrevista {
     text-align: center;
     justify-content: center; }
-    body main .ultimaEntrevista__video {
+    body main .index .ultimaEntrevista__video {
       max-height: 15em;
       max-width: 20em; }
-    body main .ultimaEntrevista__texto {
+    body main .index .ultimaEntrevista__texto {
       margin-bottom: .2em;
       font-size: .9em;
       margin-top: .2em;
       text-align: center; }
-  body main .recomendado {
+  body main .index .recomendado {
     justify-content: center;
     text-align: center; }
-    body main .recomendado__imagen {
+    body main .index .recomendado__imagen {
       max-height: 11em; }
-    body main .recomendado__texto .click {
+    body main .index .recomendado__texto .click {
       font-weight: bold; }
   body main .noticia {
     text-align: center; }
