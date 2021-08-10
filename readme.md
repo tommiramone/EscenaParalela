@@ -8,8 +8,8 @@ Escena Paralela es un medio periodístico que inició en 2020 en plena pandemia 
 
 ## Dueños de medio
 
-* Tomás Duro [Instagram](https://www.instagram.com/tommiramone/)
-* Carla Ruffolo [Instagram](https://www.instagram.com/carlaaruffolo/)
+* Tomás Duro [Instagram](https://www.instagram.com/tommiramone/) [Twitter](https://twitter.com/Tommiramone)
+* Carla Ruffolo [Instagram](https://www.instagram.com/carlaaruffolo/) [Twitter](https://twitter.com/CuerviiRuffolo) 
 
 ## Creador de la página web
 
