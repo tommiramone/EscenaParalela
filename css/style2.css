@@ -51,21 +51,19 @@ p {
   grid-area: 2 / 1 / 6 / 7; }
 
 @media only screen and (min-width: 768px) {
-  body header .navegador__lista--md {
-    font-size: 1.1em; }
   body main .index__titulo--md {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-align: center;
     margin: 0.3em 0 0.6em 0; }
   body main .ultimaNoticia__texto--md {
     margin: 0.3em 0 0.6em 0;
-    font-size: 1.2em; }
+    font-size: 1.2rem; }
   body main .ultimaEntrevista__video--md {
     height: 25em;
     width: 35em; }
   body main .recomendado__texto--md {
     margin: 0.3em 0 0.6em 0;
-    font-size: .9em; }
+    font-size: .9rem; }
   body main .entrevista .container--md {
     width: 70%;
     margin-bottom: .5em;
@@ -81,7 +79,7 @@ p {
 
 @media only screen and (min-width: 992px) {
   body header .navegador__lista--l {
-    font-size: 1.5em; }
+    font-size: 10em; }
   body header .navegador li :hover {
     text-shadow: 4px 3px 0 #039dff; }
   body main .index {
@@ -97,8 +95,6 @@ p {
       height: 20em; } }
 
 @media only screen and (min-width: 1200px) {
-  body header .navegador__lista--xl {
-    font-size: 2em; }
   body header .navegador li :hover {
     text-shadow: 4px 3px 0 #039dff; }
   body header .navegador .logo__item {
@@ -108,24 +104,24 @@ p {
     body main .noticia__uno--xl {
       direction: rtl; }
       body main .noticia__uno--xl .noticia__uno__item__texto--xl {
-        font-size: 1.2em; }
+        font-size: 1.2rem; }
     body main .noticia__dos--xl {
       direction: ltr; }
       body main .noticia__dos--xl .noticia__dos__item__texto--xl {
-        font-size: 1.2em; }
+        font-size: 1.2rem; }
     body main .noticia__tres--xl {
       direction: rtl; }
       body main .noticia__tres--xl .noticia__tres__item__texto--xl {
-        font-size: 1.2em; }
+        font-size: 1.2rem; }
     body main .noticia__cuatro--xl {
       direction: ltr; }
       body main .noticia__cuatro--xl .noticia__cuatro__item__texto--xl {
-        font-size: 1.2em; }
+        font-size: 1.2rem; }
   body main .ultimaNoticia__imagen--xl {
     height: 90%;
     width: 90%; }
   body main .recomendado__texto--xl {
-    font-size: 1em; }
+    font-size: 1rem; }
   body main .ultimaNoticia--xl,
   body main .recomendado--xl,
   body main .ultimaEntrevista--xl {
@@ -164,10 +160,10 @@ body {
     body header .navegador__item {
       padding: 1em;
       color: white;
-      font-size: .8em;
       font-family: "Dela Gothic One", Impact, cursive; }
     body header .navegador__lista {
-      margin-left: auto; }
+      margin-left: auto;
+      font-size: .9rem; }
     body header .navegador__link--activo {
       font-weight: bold; }
     body header .navegador__boton:focus, body header .navegador__boton:active, body header .navegador__boton:focus {
@@ -184,7 +180,7 @@ body {
         max-height: 11em; }
     body main .index .ultimaNoticia__texto, body main .index .recomendado__texto {
       padding: .5em;
-      font-size: .9em;
+      font-size: .9rem;
       text-align: center; }
   body main .index .ultimaEntrevista {
     text-align: center;
@@ -194,7 +190,7 @@ body {
       max-width: 20em; }
     body main .index .ultimaEntrevista__texto {
       margin-bottom: .2em;
-      font-size: .9em;
+      font-size: .9rem;
       margin-top: .2em;
       text-align: center; }
   body main .index .recomendado {
@@ -207,16 +203,16 @@ body {
   body main .noticia {
     text-align: center; }
     body main .noticia__uno__item__texto {
-      font-size: 1em; }
+      font-size: 1rem; }
     body main .noticia__uno__item__imagen, body main .noticia__dos__item__imagen, body main .noticia__tres__item__imagen, body main .noticia__cuatro__item__imagen {
       border-radius: 5px;
       max-width: 90%; }
     body main .noticia__dos__item__texto {
-      font-size: 1em; }
+      font-size: 1rem; }
     body main .noticia__tres__item__texto {
-      font-size: 1em; }
+      font-size: 1rem; }
     body main .noticia__cuatro__item__texto {
-      font-size: 1em; }
+      font-size: 1rem; }
   body main .eventos {
     color: white;
     border: solid 5px blueviolet;
@@ -263,7 +259,7 @@ body {
         border: none;
         margin: .1em; }
       body main .contacto__formulario__check {
-        font-size: .9em;
+        font-size: .9rem;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -307,7 +303,7 @@ body {
       body footer .pie__item__texto {
         display: flex;
         flex-flow: row nowrap;
-        font-size: 1em; }
+        font-size: 1rem; }
     body footer .pie__item__dos {
       display: flex;
       flex-flow: row nowrap;
@@ -319,6 +315,6 @@ body {
       justify-items: flex-end;
       gap: 1em;
       color: white;
-      font-size: 0.8em;
+      font-size: 0.8rem;
       font-family: "Dela Gothic One", Impact, cursive;
       padding: 2em; }

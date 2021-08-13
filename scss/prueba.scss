@@ -29,12 +29,12 @@ body {
             &__item {
                 padding: 1em;
                 color: white;
-                font-size: .8em;
                 font-family: $titulo-fuente;
             }
 
             &__lista {
                 margin-left: auto;
+                font-size: .9rem;
             }
 
             &__link--activo {
@@ -71,7 +71,7 @@ body {
 
                 &__texto {
                     padding: .5em;
-                    font-size: .9em;
+                    font-size: .9rem;
                     text-align: center;
 
                 }
@@ -88,7 +88,7 @@ body {
 
                 &__texto {
                     margin-bottom: .2em;
-                    font-size: .9em;
+                    font-size: .9rem;
                     margin-top: .2em;
                     text-align: center;
                 }
@@ -117,7 +117,7 @@ body {
 
             &__uno {
                 &__item__texto {
-                    font-size: 1em;
+                    font-size: 1rem;
                 }
 
                 &__item__imagen {
@@ -129,7 +129,7 @@ body {
 
             &__dos {
                 &__item__texto {
-                    font-size: 1em;
+                    font-size: 1rem;
                 }
 
                 &__item__imagen {
@@ -139,7 +139,7 @@ body {
 
             &__tres {
                 &__item__texto {
-                    font-size: 1em;
+                    font-size: 1rem;
                 }
 
                 &__item__imagen {
@@ -150,7 +150,7 @@ body {
 
             &__cuatro {
                 &__item__texto {
-                    font-size: 1em;
+                    font-size: 1rem;
                 }
 
                 &__item__imagen {
@@ -228,7 +228,7 @@ body {
                 }
 
                 &__check {
-                    font-size: .9em;
+                    font-size: .9rem;
                     @include flex (row wrap);
                     justify-content: space-around;
                     margin: .3em;
@@ -284,7 +284,7 @@ body {
 
                 &__texto {
                     @include flex (row nowrap);
-                    font-size: 1em;
+                    font-size: 1rem;
                 }
             }
 
@@ -303,7 +303,7 @@ body {
                 justify-items: flex-end;
                 gap: 1em;
                 color: white;
-                font-size: 0.8em;
+                font-size: 0.8rem;
                 font-family: $titulo-fuente;
                 padding: 2em;
             }

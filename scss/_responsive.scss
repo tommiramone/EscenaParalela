@@ -1,16 +1,8 @@
  @media only screen and (min-width: 768px) {
      body {
-         header {
-             .navegador {
-                 &__lista--md {
-                     font-size: 1.1em;
-                 }
-             }
-         }
-
          main {
              .index__titulo--md {
-                 font-size: 1.2em;
+                 font-size: 1.2rem;
                  text-align: center;
                  margin: 0.3em 0 0.6em 0;
              }
@@ -18,7 +10,7 @@
              .ultimaNoticia {
                  &__texto--md {
                      margin: 0.3em 0 0.6em 0;
-                     font-size: 1.2em;
+                     font-size: 1.2rem;
                  }
              }
 
@@ -32,7 +24,7 @@
              .recomendado {
                  &__texto--md {
                      margin: 0.3em 0 0.6em 0;
-                     font-size: .9em;
+                     font-size: .9rem;
                  }
              }
 
@@ -60,7 +52,7 @@
              }
 
              .error--md {
-                height: 11em;
+                 height: 11em;
              }
          }
      }
@@ -71,7 +63,7 @@
          header {
              .navegador {
                  &__lista--l {
-                     font-size: 1.5em;
+                     font-size: 10em;
                  }
 
                  li {
@@ -105,6 +97,7 @@
              }
          }
      }
+
  }
 
  @media only screen and (min-width: 1200px) {
@@ -112,10 +105,6 @@
      body {
          header {
              .navegador {
-                 &__lista--xl {
-                     font-size: 2em;
-                 }
-
                  li {
                      :hover {
                          text-shadow: 4px 3px 0 #039dff;
@@ -127,7 +116,9 @@
                          height: 5.5em;
                      }
                  }
+
              }
+
          }
 
          main {
@@ -138,7 +129,7 @@
                      direction: rtl;
 
                      .noticia__uno__item__texto--xl {
-                         font-size: 1.2em;
+                         font-size: 1.2rem;
                      }
                  }
 
@@ -146,7 +137,7 @@
                      direction: ltr;
 
                      .noticia__dos__item__texto--xl {
-                         font-size: 1.2em;
+                         font-size: 1.2rem;
                      }
                  }
 
@@ -155,7 +146,7 @@
                      direction: rtl;
 
                      .noticia__tres__item__texto--xl {
-                         font-size: 1.2em;
+                         font-size: 1.2rem;
                      }
                  }
 
@@ -163,7 +154,7 @@
                      direction: ltr;
 
                      .noticia__cuatro__item__texto--xl {
-                         font-size: 1.2em;
+                         font-size: 1.2rem;
                      }
                  }
 
@@ -175,7 +166,7 @@
              }
 
              .recomendado__texto--xl {
-                 font-size: 1em;
+                 font-size: 1rem;
              }
 
              .ultimaNoticia--xl,
@@ -218,5 +209,7 @@
                  height: 18em;
              }
          }
+
      }
+
  }
