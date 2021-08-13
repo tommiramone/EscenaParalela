@@ -169,152 +169,164 @@ body {
     body header .navegador__boton:focus, body header .navegador__boton:active, body header .navegador__boton:focus {
       outline: none;
       box-shadow: none; }
-  body main .content {
-    flex: 1; }
-  body main .index .ultimaNoticia {
-    text-align: center; }
-    body main .index .ultimaNoticia__imagen {
-      text-align: center;
-      justify-content: center; }
-      body main .index .ultimaNoticia__imagen img {
-        max-height: 11em; }
-    body main .index .ultimaNoticia__texto, body main .index .recomendado__texto {
-      padding: .5em;
-      font-size: .9rem;
-      text-align: center; }
-  body main .index .ultimaEntrevista {
+
+main .content {
+  flex: 1; }
+
+main .index .ultimaNoticia {
+  text-align: center; }
+  main .index .ultimaNoticia__imagen {
     text-align: center;
     justify-content: center; }
-    body main .index .ultimaEntrevista__video {
-      max-height: 15em;
-      max-width: 20em; }
-    body main .index .ultimaEntrevista__texto {
-      margin-bottom: .2em;
-      font-size: .9rem;
-      margin-top: .2em;
-      text-align: center; }
-  body main .index .recomendado {
-    justify-content: center;
-    text-align: center; }
-    body main .index .recomendado__imagen {
+    main .index .ultimaNoticia__imagen img {
       max-height: 11em; }
-    body main .index .recomendado__texto .click {
-      font-weight: bold; }
-  body main .noticia {
+  main .index .ultimaNoticia__texto, main .index .recomendado__texto {
+    padding: .5em;
+    font-size: .9rem;
     text-align: center; }
-    body main .noticia__uno__item__texto {
-      font-size: 1rem; }
-    body main .noticia__uno__item__imagen, body main .noticia__dos__item__imagen, body main .noticia__tres__item__imagen, body main .noticia__cuatro__item__imagen {
-      border-radius: 5px;
-      max-width: 90%; }
-    body main .noticia__dos__item__texto {
-      font-size: 1rem; }
-    body main .noticia__tres__item__texto {
-      font-size: 1rem; }
-    body main .noticia__cuatro__item__texto {
-      font-size: 1rem; }
-  body main .eventos {
-    color: white;
-    border: solid 5px blueviolet;
-    border-radius: .5em;
-    margin: auto; }
-    body main .eventos .link:hover {
-      font-weight: bold;
-      color: #039dff; }
-    body main .eventos th {
-      text-transform: uppercase;
-      text-align: center;
-      color: white; }
-    body main .eventos td {
-      text-align: center;
-      color: white; }
-  body main .entrevista__texto {
+
+main .index .ultimaEntrevista {
+  text-align: center;
+  justify-content: center; }
+  main .index .ultimaEntrevista__video {
+    max-height: 15em;
+    max-width: 20em; }
+  main .index .ultimaEntrevista__texto {
+    margin-bottom: .2em;
+    font-size: .9rem;
+    margin-top: .2em;
+    text-align: center; }
+
+main .index .recomendado {
+  justify-content: center;
+  text-align: center; }
+  main .index .recomendado__imagen {
+    max-height: 11em; }
+  main .index .recomendado__texto .click {
+    font-weight: bold; }
+
+main .noticia {
+  text-align: center; }
+  main .noticia__uno__item__texto {
+    font-size: 1rem; }
+  main .noticia__uno__item__imagen, main .noticia__dos__item__imagen, main .noticia__tres__item__imagen, main .noticia__cuatro__item__imagen {
+    border-radius: 5px;
+    max-width: 90%; }
+  main .noticia__dos__item__texto {
+    font-size: 1rem; }
+  main .noticia__tres__item__texto {
+    font-size: 1rem; }
+  main .noticia__cuatro__item__texto {
+    font-size: 1rem; }
+
+main .eventos {
+  color: white;
+  border: solid 5px blueviolet;
+  border-radius: .5em;
+  margin: auto; }
+  main .eventos .link:hover {
+    font-weight: bold;
+    color: #039dff; }
+  main .eventos th {
+    text-transform: uppercase;
     text-align: center;
-    margin: .5em; }
-  body main .entrevista .container {
-    max-width: 90%;
-    margin-bottom: .5em;
-    margin: 0 auto; }
-    body main .entrevista .container .d-block {
-      height: 20em; }
-  body main .contacto {
-    display: flex;
-    flex-flow: column nowrap;
-    padding: .3em;
-    margin: auto; }
-    body main .contacto__formulario {
-      text-align: center;
-      border: solid blueviolet;
-      border-radius: .5em; }
-      body main .contacto__formulario__nombre {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        text-align: center;
-        margin: 1em 0 1em 0; }
-      body main .contacto__formulario__cuadro {
-        text-align: center;
-        justify-content: center;
-        resize: none;
-        border: none;
-        margin: .1em; }
-      body main .contacto__formulario__check {
-        font-size: .9rem;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        margin: .3em; }
-      body main .contacto__formulario__select {
-        display: flex;
-        flex-flow: column nowrap;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin: .3em 0 .3em 0;
-        border: none; }
-      body main .contacto__formulario__boton {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
-        text-align: center;
-        padding: .3em;
-        border-radius: .1em;
-        border: none;
-        outline: none; }
-        body main .contacto__formulario__boton__uno {
-          padding: .5em; }
-  body main #contacto__texto {
-    text-align: center; }
-  body main .error {
-    margin-left: 20%;
-    min-height: 7em; }
-  body footer .pie {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(to bottom, #121212, rgba(170, 170, 170, 0.2));
-    padding: .7em; }
-    body footer .pie__item {
+    color: white; }
+  main .eventos td {
+    text-align: center;
+    color: white; }
+
+main .entrevista__texto {
+  text-align: center;
+  margin: .5em; }
+
+main .entrevista .container {
+  max-width: 90%;
+  margin-bottom: .5em;
+  margin: 0 auto; }
+  main .entrevista .container .d-block {
+    height: 20em; }
+
+main .contacto {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: .3em;
+  margin: auto; }
+  main .contacto__formulario {
+    text-align: center;
+    border: solid blueviolet;
+    border-radius: .5em; }
+    main .contacto__formulario__nombre {
       display: flex;
       flex-flow: column nowrap;
       align-items: center;
-      justify-items: flex-start; }
-      body footer .pie__item__texto {
-        display: flex;
-        flex-flow: row nowrap;
-        font-size: 1rem; }
-    body footer .pie__item__dos {
+      text-align: center;
+      margin: 1em 0 1em 0; }
+    main .contacto__formulario__cuadro {
+      text-align: center;
+      justify-content: center;
+      resize: none;
+      border: none;
+      margin: .1em; }
+    main .contacto__formulario__check {
+      font-size: .9rem;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      margin: .3em; }
+    main .contacto__formulario__select {
+      display: flex;
+      flex-flow: column nowrap;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin: .3em 0 .3em 0;
+      border: none; }
+    main .contacto__formulario__boton {
       display: flex;
       flex-flow: row nowrap;
-      column-gap: 1em; }
-      body footer .pie__item__dos img {
-        height: 2em; }
-    body footer .pie__lista {
+      justify-content: space-around;
+      text-align: center;
+      padding: .3em;
+      border-radius: .1em;
+      border: none;
+      outline: none; }
+      main .contacto__formulario__boton__uno {
+        padding: .5em; }
+
+main #contacto__texto {
+  text-align: center; }
+
+main .error {
+  margin-left: 20%;
+  min-height: 7em; }
+
+footer .pie {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #121212, rgba(170, 170, 170, 0.2));
+  padding: .7em; }
+  footer .pie__item {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-items: flex-start; }
+    footer .pie__item__texto {
       display: flex;
-      justify-items: flex-end;
-      gap: 1em;
-      color: white;
-      font-size: 0.8rem;
-      font-family: "Dela Gothic One", Impact, cursive;
-      padding: 2em; }
+      flex-flow: row nowrap;
+      font-size: 1rem; }
+  footer .pie__item__dos {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 1em; }
+    footer .pie__item__dos img {
+      height: 2em; }
+  footer .pie__lista {
+    display: flex;
+    justify-items: flex-end;
+    gap: 1em;
+    color: white;
+    font-size: 0.8rem;
+    font-family: "Dela Gothic One", Impact, cursive;
+    padding: 2em; }

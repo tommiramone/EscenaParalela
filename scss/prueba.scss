@@ -48,267 +48,266 @@ body {
                 box-shadow: none;
             }
         }
-
     }
 
-    main {
-        .content {
-            flex: 1;
-        }
+}
 
-        .index {
-            .ultimaNoticia {
-                text-align: center;
-
-                &__imagen {
-                    text-align: center;
-                    justify-content: center;
-
-                    img {
-                        max-height: 11em;
-                    }
-                }
-
-                &__texto {
-                    padding: .5em;
-                    font-size: .9rem;
-                    text-align: center;
-
-                }
-            }
-
-            .ultimaEntrevista {
-                text-align: center;
-                justify-content: center;
-
-                &__video {
-                    max-height: 15em;
-                    max-width: 20em;
-                }
-
-                &__texto {
-                    margin-bottom: .2em;
-                    font-size: .9rem;
-                    margin-top: .2em;
-                    text-align: center;
-                }
-            }
-
-            .recomendado {
-                justify-content: center;
-                text-align: center;
-
-                &__imagen {
-                    max-height: 11em;
-                }
-
-                &__texto {
-                    @extend.ultimaNoticia__texto;
-
-                    .click {
-                        font-weight: bold;
-                    }
-                }
-            }
-        }
-
-        .noticia {
-            text-align: center;
-
-            &__uno {
-                &__item__texto {
-                    font-size: 1rem;
-                }
-
-                &__item__imagen {
-                    border-radius: 5px;
-                    max-width: 90%;
-
-                }
-            }
-
-            &__dos {
-                &__item__texto {
-                    font-size: 1rem;
-                }
-
-                &__item__imagen {
-                    @extend .noticia__uno__item__imagen;
-                }
-            }
-
-            &__tres {
-                &__item__texto {
-                    font-size: 1rem;
-                }
-
-                &__item__imagen {
-                    @extend .noticia__uno__item__imagen;
-                }
-
-            }
-
-            &__cuatro {
-                &__item__texto {
-                    font-size: 1rem;
-                }
-
-                &__item__imagen {
-                    @extend .noticia__uno__item__imagen;
-                }
-            }
-
-        }
-
-        .eventos {
-            color: white;
-            border: solid 5px blueviolet;
-            border-radius: .5em;
-            margin: auto;
-
-            .link:hover {
-                font-weight: bold;
-                color: $texto-color;
-            }
-
-            th {
-                text-transform: uppercase;
-                text-align: center;
-                color: white;
-            }
-
-            td {
-                text-align: center;
-                color: white;
-            }
-
-        }
-
-        .entrevista {
-            &__texto {
-                text-align: center;
-                margin: .5em;
-            }
-
-            .container {
-                max-width: 90%;
-                margin-bottom: .5em;
-                margin: 0 auto;
-
-                .d-block {
-                    height: 20em;
-                }
-            }
-        }
-
-        .contacto {
-            @include flex (column nowrap);
-
-            padding: .3em;
-            margin: auto;
-
-            &__formulario {
-                text-align: center;
-                border: solid blueviolet;
-                border-radius: .5em;
-
-                &__nombre {
-                    @include flex (column nowrap);
-                    align-items: center;
-                    text-align: center;
-                    margin: 1em 0 1em 0;
-                }
-
-                &__cuadro {
-                    text-align: center;
-                    justify-content: center;
-                    resize: none;
-                    border: none;
-                    margin: .1em;
-                }
-
-                &__check {
-                    font-size: .9rem;
-                    @include flex (row wrap);
-                    justify-content: space-around;
-                    margin: .3em;
-                }
-
-                &__select {
-                    @include flex (column nowrap);
-                    text-align: center;
-                    justify-content: center;
-                    align-items: center;
-                    margin: .3em 0 .3em 0;
-                    border: none;
-                }
-
-                &__boton {
-                    @include flex (row nowrap);
-                    justify-content: space-around;
-                    text-align: center;
-                    padding: .3em;
-                    border-radius: .1em;
-                    border: none;
-                    outline: none;
-
-                    &__uno {
-                        padding: .5em;
-                    }
-                }
-            }
-        }
-
-        #contacto__texto {
-            text-align: center;
-        }
-
-        .error {
-            margin-left: 20%;
-            min-height: 7em;
-        }
+main {
+    .content {
+        flex: 1;
     }
 
-    footer {
-        .pie {
-            @include flex (row nowrap);
-            justify-content: space-between;
-            align-items: center;
-            background: linear-gradient(to bottom, #121212, rgba(170, 170, 170, 0.2));
-            padding: .7em;
+    .index {
+        .ultimaNoticia {
+            text-align: center;
 
-            &__item {
-                @include flex (column nowrap);
-                align-items: center;
-                justify-items: flex-start;
-
-                &__texto {
-                    @include flex (row nowrap);
-                    font-size: 1rem;
-                }
-            }
-
-            &__item__dos {
-                @include flex (row nowrap);
-                column-gap: 1em;
+            &__imagen {
+                text-align: center;
+                justify-content: center;
 
                 img {
-                    height: 2em;
+                    max-height: 11em;
                 }
-
             }
 
-            &__lista {
-                display: flex;
-                justify-items: flex-end;
-                gap: 1em;
-                color: white;
-                font-size: 0.8rem;
-                font-family: $titulo-fuente;
-                padding: 2em;
+            &__texto {
+                padding: .5em;
+                font-size: .9rem;
+                text-align: center;
+
+            }
+        }
+
+        .ultimaEntrevista {
+            text-align: center;
+            justify-content: center;
+
+            &__video {
+                max-height: 15em;
+                max-width: 20em;
             }
 
+            &__texto {
+                margin-bottom: .2em;
+                font-size: .9rem;
+                margin-top: .2em;
+                text-align: center;
+            }
+        }
+
+        .recomendado {
+            justify-content: center;
+            text-align: center;
+
+            &__imagen {
+                max-height: 11em;
+            }
+
+            &__texto {
+                @extend.ultimaNoticia__texto;
+
+                .click {
+                    font-weight: bold;
+                }
+            }
         }
     }
 
+    .noticia {
+        text-align: center;
+
+        &__uno {
+            &__item__texto {
+                font-size: 1rem;
+            }
+
+            &__item__imagen {
+                border-radius: 5px;
+                max-width: 90%;
+
+            }
+        }
+
+        &__dos {
+            &__item__texto {
+                font-size: 1rem;
+            }
+
+            &__item__imagen {
+                @extend .noticia__uno__item__imagen;
+            }
+        }
+
+        &__tres {
+            &__item__texto {
+                font-size: 1rem;
+            }
+
+            &__item__imagen {
+                @extend .noticia__uno__item__imagen;
+            }
+
+        }
+
+        &__cuatro {
+            &__item__texto {
+                font-size: 1rem;
+            }
+
+            &__item__imagen {
+                @extend .noticia__uno__item__imagen;
+            }
+        }
+
+    }
+
+    .eventos {
+        color: white;
+        border: solid 5px blueviolet;
+        border-radius: .5em;
+        margin: auto;
+
+        .link:hover {
+            font-weight: bold;
+            color: $texto-color;
+        }
+
+        th {
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+        }
+
+        td {
+            text-align: center;
+            color: white;
+        }
+
+    }
+
+    .entrevista {
+        &__texto {
+            text-align: center;
+            margin: .5em;
+        }
+
+        .container {
+            max-width: 90%;
+            margin-bottom: .5em;
+            margin: 0 auto;
+
+            .d-block {
+                height: 20em;
+            }
+        }
+    }
+
+    .contacto {
+        @include flex (column nowrap);
+
+        padding: .3em;
+        margin: auto;
+
+        &__formulario {
+            text-align: center;
+            border: solid blueviolet;
+            border-radius: .5em;
+
+            &__nombre {
+                @include flex (column nowrap);
+                align-items: center;
+                text-align: center;
+                margin: 1em 0 1em 0;
+            }
+
+            &__cuadro {
+                text-align: center;
+                justify-content: center;
+                resize: none;
+                border: none;
+                margin: .1em;
+            }
+
+            &__check {
+                font-size: .9rem;
+                @include flex (row wrap);
+                justify-content: space-around;
+                margin: .3em;
+            }
+
+            &__select {
+                @include flex (column nowrap);
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin: .3em 0 .3em 0;
+                border: none;
+            }
+
+            &__boton {
+                @include flex (row nowrap);
+                justify-content: space-around;
+                text-align: center;
+                padding: .3em;
+                border-radius: .1em;
+                border: none;
+                outline: none;
+
+                &__uno {
+                    padding: .5em;
+                }
+            }
+        }
+    }
+
+    #contacto__texto {
+        text-align: center;
+    }
+
+    .error {
+        margin-left: 20%;
+        min-height: 7em;
+    }
+}
+
+footer {
+    .pie {
+        @include flex (row nowrap);
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(to bottom, #121212, rgba(170, 170, 170, 0.2));
+        padding: .7em;
+
+        &__item {
+            @include flex (column nowrap);
+            align-items: center;
+            justify-items: flex-start;
+
+            &__texto {
+                @include flex (row nowrap);
+                font-size: 1rem;
+            }
+        }
+
+        &__item__dos {
+            @include flex (row nowrap);
+            column-gap: 1em;
+
+            img {
+                height: 2em;
+            }
+
+        }
+
+        &__lista {
+            display: flex;
+            justify-items: flex-end;
+            gap: 1em;
+            color: white;
+            font-size: 0.8rem;
+            font-family: $titulo-fuente;
+            padding: 2em;
+        }
+
+    }
 }
