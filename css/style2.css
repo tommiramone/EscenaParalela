@@ -78,8 +78,6 @@ p {
     height: 11em; } }
 
 @media only screen and (min-width: 992px) {
-  body header .navegador__lista--l {
-    font-size: 10em; }
   body header .navegador li :hover {
     text-shadow: 4px 3px 0 #039dff; }
   body main .index {
