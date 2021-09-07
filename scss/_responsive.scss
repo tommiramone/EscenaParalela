@@ -1,4 +1,11 @@
- @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 300px){
+
+    .error{
+        height: 7em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
      body {
          main {
              .index__titulo--md {

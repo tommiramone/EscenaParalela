@@ -50,6 +50,10 @@ p {
 .container {
   grid-area: 2 / 1 / 6 / 7; }
 
+@media only screen and (min-width: 300px) {
+  .error {
+    height: 7em; } }
+
 @media only screen and (min-width: 768px) {
   body main .index__titulo--md {
     font-size: 1.2rem;
@@ -296,7 +300,7 @@ main #contacto__texto {
 
 main .error {
   margin-left: 20%;
-  min-height: 7em; }
+  min-height: 1em; }
 
 footer .pie {
   display: flex;
